@@ -1,0 +1,20 @@
+/* App.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  /* Full-page background image */
+  background-image: url('./images/background.jpg'); /* Replace with your image path */
+  background-size: cover;        /* Cover entire area */
+  background-position: center;   /* Center the image */
+  background-repeat: no-repeat;  /* Prevent tiling */
+  min-height: 100vh;             /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;                  /* Optional: text color */
+  text-align: center;
+}
